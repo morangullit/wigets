@@ -15,6 +15,13 @@ class MenuItem {
 }
 
 const appMenuItems = <MenuItem>[
+
+  MenuItem(
+    title: 'Riverpod Counter',  
+    subTitle: 'Introducion a riverpod', 
+    link: '/counter_screen',  
+    icon: Icons.calculate_rounded
+    ),
   
   MenuItem(
     title: 'Botones', 
@@ -48,7 +55,7 @@ const appMenuItems = <MenuItem>[
     title: 'Animated containers',  
     subTitle: 'Statefull widget animado', 
     link: '/animated', 
-    icon: Icons.info_outline
+    icon: Icons.crop_free_outlined
     ),
 
   MenuItem(
@@ -71,4 +78,13 @@ const appMenuItems = <MenuItem>[
     link: '/infinite',  
     icon: Icons.list_alt_rounded
     ),
+
+    MenuItem(
+    title: 'Cambiar Tema',  
+    subTitle: 'Cambiar Tema de la app', 
+    link: '/theme_changer',  
+    icon: Icons.color_lens_outlined
+    ),
+  
+  
 ];
