@@ -48,7 +48,7 @@ const appMenuItems = <MenuItem>[
     title: 'Animated containers',  
     subTitle: 'Statefull widget animado', 
     link: '/animated', 
-    icon: Icons.info_outline
+    icon: Icons.crop_free_outlined
     ),
 
   MenuItem(
